@@ -1,0 +1,14 @@
+.inputContainer {
+    margin-top: 10px;
+    position: relative;
+}
+
+.inputField {
+    padding: 10px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid var(--primary-color);
+    background-color: transparent;
+
+}

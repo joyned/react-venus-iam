@@ -1,0 +1,24 @@
+.card {
+    box-shadow: 4px 4px 20px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.card .cardTitle {
+    background-color: var(--header-color);
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card .cardTitle h1 {
+    margin: 0;
+}
+
+.card .cardTitle hr {
+    margin: 10px 0 0 0;
+}
+
+.card .cardContent {
+    padding: 0 10px 20px;
+}

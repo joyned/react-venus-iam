@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #2196F3;
+  --secondary-color: #FF9800;
+  --accent-color: #4CAF50;
+  --background-color: #F5F5F5;
+  --text-color: #333333;
+  --button-color: #1976D2;
+  --button-color-accent: #1565C0;
+  --header-color: #1565C0;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+svg {
+  margin-left: 10px;
+}
+
+svg:hover {
+  cursor: pointer;
+}

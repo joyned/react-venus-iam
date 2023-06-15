@@ -1,0 +1,52 @@
+header {
+    background-color: var(--header-color);
+    padding: 10px;
+    color: white;
+    display: flex;
+}
+
+header svg {
+    margin-left: 35px;
+}
+
+header .menu {
+    margin: 0 35px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header .menu .navBar {
+    display: flex;
+    align-items: center;
+}
+
+header .menu .navBar a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin: 10px;
+}
+
+header .menu .navBar a p svg {
+    margin-right: 5px;
+}
+
+header .menu a:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header .menu .logout {
+    display: flex;
+    align-items: center;
+}
+
+header .menu .logout:hover {
+    cursor: pointer;
+}
+
+header .menu .logout svg {
+    margin: 0 10px;
+}
